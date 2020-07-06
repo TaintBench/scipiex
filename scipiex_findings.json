@@ -113,7 +113,8 @@
         "threading": true
       },
       "ID": 1,
-      "description": "This malicious flow reads telephone number, stores it a static field and starts a service which listens to the incoming SMSs. The telephone number will be sent to a remote server when SMSs are received."
+      "description": "This malicious flow reads telephone number, stores it a static field and starts a service which listens to the incoming SMSs. The telephone number will be sent to a remote server when SMSs are received.",
+      "isNegative": false
     },
     {
       "source": {
@@ -218,7 +219,8 @@
         "threading": true
       },
       "ID": 2,
-      "description": "This malicious flow reads received SMSs and send them to a remote server via a HTTP POST request."
+      "description": "This malicious flow reads received SMSs and send them to a remote server via a HTTP POST request.",
+      "isNegative": false
     },
     {
       "source": {
@@ -308,7 +310,8 @@
         "threading": true
       },
       "ID": 3,
-      "description": "This malicious flow reads contacts and saves them to a file wich will be later sent to a remote server."
+      "description": "This malicious flow reads contacts and saves them to a file wich will be later sent to a remote server.",
+      "isNegative": false
     }
   ]
 }
